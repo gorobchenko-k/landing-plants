@@ -1,11 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plants</title>
+    <link rel="icon" type="image/x-icon" href="image/logo_vector.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="#" class="header__logo"><img src="image/logo_vector.svg" alt="logo"><span>Plants</span></a>
+                <div class="header__menu menu">
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#welcome" class="menu__link">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#about" class="menu__link">About us</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#service" class="menu__link">Service</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#prices" class="menu__link">Price</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#contacts" class="menu__link">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="main__welcome welcome" id="welcome">
+                <div class="welcome__container _container">
+                    <img class="welcome__image" src="image/leafs.png" alt="leafs">
+                    <div class="welcome__content">
+                        <h1 class="welcome__title">We grow <span class="welcome__title-green">plants</span> and give you
+                            oxygen</h1>
+                        <p class="welcome__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <input class="welcome__button button" type="button" value="LEARN MORE">
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__about about" id="about">
+                <div class="about__container _container">
+                    <div class="about__content">
+                        <h2 class="about__title">We are <span class="about__title-orange">professional
+                                experienced</span> gardeners</h2>
+                        <p class="about__text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+                            an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                            has survived not only five centuries, but also the leap into electronic typesetting,
+                            remaining essentially unchanged. </p>
+                    </div>
+                    <img class="about__image" src="image/houseplant 1.jpg" alt="leafs">
+                </div>
+            </section>
+
+            <section class="main__service service" id="service">
+                <div class="service__container _container">
+                    <div class="service__header">
+                        <h2 class="service__title">Service and our projects</h2>
+                        <div class="service__buttons">
+                            <input class="service__button button" type="button" value="Gardens">
+                            <input class="service__button button" type="button" value="Lawn">
+                            <input class="service__button button" type="button" value="Planting">
+                        </div>
+                    </div>
+                    <div class="service__list">
+                        <div class="service__item">
+                            <img src="image/service-1.jpg" alt="Garden care" class="service__image">
+                            <div class="service__content">
+                                <h3 class="service__sub-title">Garden care</h3>
+                                <p class="service__text">Lorem Ipsum has been the industry</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <img src="image/service-2.jpg" alt="Planting" class="service__image">
+                            <div class="service__content">
+                                <h3 class="service__sub-title">Planting</h3>
+                                <p class="service__text">Lorem Ipsum has been the industry</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <img src="image/service-3.jpg" alt="Lawn care" class="service__image">
+                            <div class="service__content">
+                                <h3 class="service__sub-title">Lawn care</h3>
+                                <p class="service__text">Lorem Ipsum has been the industry</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <img src="image/service-4.jpg" alt="Planting" class="service__image">
+                            <div class="service__content">
+                                <h3 class="service__sub-title">Planting</h3>
+                                <p class="service__text">Lorem Ipsum has been the industry</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <img src="image/service-5.jpg" alt="Garden care" class="service__image">
+                            <div class="service__content">
+                                <h3 class="service__sub-title">Garden care</h3>
+                                <p class="service__text">Lorem Ipsum has been the industry</p>
+                            </div>
+                        </div>
+                        <div class="service__item">
+                            <img src="image/service-6.jpg" alt="Planting" class="service__image">
+                            <div class="service__content">
+                                <h3 class="service__sub-title">Planting</h3>
+                                <p class="service__text">Lorem Ipsum has been the industry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__prices prices" id="prices">
+                <div class="prices__container _container">
+                    <div class="prices__price">
+                        <h2 class="prices__title">Prices</h2>
+                        <div class="prices__list">
+                            <div class="prices__item">
+                                <h3 class="prices__sub-title">Basics</h3>
+                                <span class="prices__arrow arrow"></span>
+                            </div>
+                            <div class="prices__item">
+                                <h3 class="prices__sub-title">Standard</h3>
+                                <span class="prices__arrow arrow"></span>
+                            </div>
+                            <div class="prices__item">
+                                <h3 class="prices__sub-title">Pro care</h3>
+                                <span class="prices__arrow arrow"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prices__contact">
+                        <h2 class="prices__title title-rigth">Our best <span
+                                class="prices__title-green">gardeners</span> are ready to help you</h2>
+                        <input class="prices__button button" type="button" value="Contact us">
+                        <img src="image/leafs-2.png" alt="leafs" class="prices__image" width="152px">
+                    </div>
+                </div>
+            </section>
+
+            <section class="main__contacts contacts" id="contacts">
+                <div class="contacts__container _container">
+                    <img src="image/contact_woman 1.png" alt="woman" class="contacts__image">
+                    <h2 class="contacts__title">Contact us</h2>
+                    <div class="contacts__city">
+                        <p class="contacts__name-city">City</p>
+                        <span class="contacts__arrow arrow"></span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container _container">
+                <div class="footer__data">
+                    <span>©</span>
+                    <span>2022</span>
+                    <span><a href="">github</a></span>
+                </div>
+
+                <div class="footer__rs-school">Rolling Scopes School</div>
+                <div class="footer__links">
+                    <a class="footer__link" href="" target="_blank"><img src="image/inst.svg" alt="Instagram"></a>
+                    <a class="footer__link" href="" target="_blank"><img src="image/fb.svg" alt="Facebook"></a>
+                    <a class="footer__link" href="" target="_blank"><img src="image/tw.svg" alt="Twitter"></a>
+                    <a class="footer__link" href="" target="_blank"><img src="image/pinterest.svg" alt="Pinterest"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
