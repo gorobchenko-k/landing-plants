@@ -24,6 +24,7 @@ body {
     font-style: normal;
     font-family: Inter;
     background-color: #FFF;
+    scroll-behavior: smooth;
 }
 
 /* ------------------------------- */
@@ -49,6 +50,8 @@ body {
     font-size: 20px;
     line-height: 125%;
     background-color: transparent;
+    cursor: pointer;
+    transition: all 0.8s ease 0s;
 }
 
 .button:hover {
@@ -63,6 +66,7 @@ body {
     height: 16px;
     border-radius: 50%;
     position: relative;
+    cursor: pointer;
 }
 
 .arrow::before,
@@ -130,11 +134,12 @@ body {
     font-size: 16px;
     text-decoration: none;
     line-height: 312%;
+    transition: all 0.4s ease 0s;
 }
 
 .menu__link:hover {
     color: #E06733;
-    font-weight: 700;
+    text-shadow: .6px 0px 0px #E06733, -.6px 0px 0px #E06733;
 }
 
 /* ------------------------------- */
@@ -288,7 +293,7 @@ body {
     font-size: 20px;
     line-height: 100%;
     color: #E06733;
-    margin: 10px 0;
+    margin: 12px 0;
     padding: 0;
 }
 
@@ -303,7 +308,7 @@ body {
 /* ------------------------------- */
 
 .prices {
-    padding: 40px 0 115px 0;
+    padding: 40px 0 110px 0;
 }
 
 .prices__container {
@@ -378,6 +383,10 @@ body {
     margin: 39px 0;
 }
 
+.prices__image {
+    width: 152px;
+}
+
 /* ------------------------------- */
 
 .contacts {
@@ -422,7 +431,7 @@ body {
 
 /* ------------------------------- */
 .footer {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .footer__container {
@@ -434,10 +443,11 @@ body {
 .footer__data {
     line-height: 50px;
     color: #000000;
+    margin-right: 80px;
 }
 
 .footer__data span {
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .footer__data span:last-child {
@@ -449,13 +459,28 @@ body {
     color: #000000;
 }
 
-.footer__rs-school {
-    line-height: 50px;
-    color: #000000;
+.footer__data span a:hover {
+    text-shadow: .4px 0px 0px #000000, -.4px 0px 0px #000000;
 }
 
-.footer__link {
-    padding-right: 20px;
+.footer__rs-school a {
+    line-height: 50px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer__rs-school a:hover {
+    text-shadow: .4px 0px 0px #000000, -.4px 0px 0px #000000;
+}
+
+
+.footer__links {
+    display: flex;
+}
+
+.footer__links li {
+    padding-left: 20px;
+
 }
 
 .footer__link:last-child {
