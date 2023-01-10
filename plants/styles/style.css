@@ -122,7 +122,7 @@ body {
 }
 
 .menu__item {
-    padding-right: 44px;
+    padding-right: 47px;
 }
 
 .menu__item:last-child {
@@ -132,6 +132,7 @@ body {
 .menu__link {
     color: #010201;
     font-size: 16px;
+    font-family: 'Inika';
     text-decoration: none;
     line-height: 312%;
     transition: all 0.4s ease 0s;
@@ -177,7 +178,7 @@ body {
 
 .welcome__text {
     line-height: 175%;
-    padding: 42px 0 48px 0;
+    padding: 45px 0 48px 0;
     margin: 0;
 }
 
@@ -208,6 +209,7 @@ body {
 .about__title {
     font-family: 'Inika';
     font-size: 40px;
+    font-weight: 400;
     line-height: 52px;
     color: #499A18;
     width: 463px;
@@ -240,6 +242,7 @@ body {
 .service__title {
     font-family: 'Inika';
     font-size: 40px;
+    font-weight: 400;
     line-height: 52px;
     color: #499A18;
     width: 306px;
@@ -480,7 +483,14 @@ body {
 
 .footer__links li {
     padding-left: 20px;
+}
 
+.footer__link img {
+    transform: scale(1);
+    transition: all 0.5s ease 0s;
+}
+.footer__link:hover img {
+    transform: scale(1.3);
 }
 
 .footer__link:last-child {
