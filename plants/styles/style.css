@@ -109,21 +109,30 @@ body {
     font-size: 16px;
     line-height: 21px;
     text-decoration: none;
+    position: relative;
+    z-index: 5;
 }
 
 .header__logo img {
     padding: 0 1px 8px 0;
 }
 
-.menu__list {
-    display: flex;
-    align-items: center;
-    margin: 0;
+.menu__icon {
+    display: none;
 }
 
-.menu__item {
-    padding-right: 47px;
+@media (min-width: 767px) {
+    .menu__list {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .menu__item {
+        padding-right: 47px;
+    }
 }
+
 
 .menu__item:last-child {
     padding-right: 0;
@@ -489,6 +498,7 @@ body {
     transform: scale(1);
     transition: all 0.5s ease 0s;
 }
+
 .footer__link:hover img {
     transform: scale(1.3);
 }

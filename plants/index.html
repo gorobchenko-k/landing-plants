@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style-tablet.css">
+    <link rel="stylesheet" href="styles/style-mobile.css">
+
 </head>
 
 <body>
@@ -19,22 +21,26 @@
                 <a href="index.html" class="header__logo"><img src="image/logo_vector.svg"
                         alt="logo"><span>Plants</span></a>
                 <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                        <span></span>
+                    </div>
                     <nav class="menu__body">
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a href="#welcome" class="menu__link">Home</a>
+                                <a href="#welcome" data-goto="#welcome" class="menu__link">Home</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#about" class="menu__link">About us</a>
+                                <a href="#about" data-goto="#about" class="menu__link">About us</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#service" class="menu__link">Service</a>
+                                <a href="#service" data-goto="#service" class="menu__link">Service</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#prices" class="menu__link">Price</a>
+                                <a href="#prices" data-goto="#prices" class="menu__link">Price</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#contacts" class="menu__link">Contacts</a>
+                                <a href="#contacts" data-goto="#contacts" class="menu__link">Contacts</a>
                             </li>
                         </ul>
                     </nav>
