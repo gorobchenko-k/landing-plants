@@ -9,30 +9,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-tablet.css">
+    <link rel="stylesheet" href="styles/style-mobile.css">
+
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
             <div class="header__container _container">
-                <a href="index.html" class="header__logo"><img src="image/logo_vector.svg" alt="logo"><span>Plants</span></a>
+                <a href="index.html" class="header__logo"><img src="image/logo_vector.svg"
+                        alt="logo"><span>Plants</span></a>
                 <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                        <span></span>
+                    </div>
                     <nav class="menu__body">
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <a href="#welcome" class="menu__link">Home</a>
+                                <a href="#welcome" data-goto="#welcome" class="menu__link">Home</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#about" class="menu__link">About us</a>
+                                <a href="#about" data-goto="#about" class="menu__link">About us</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#service" class="menu__link">Service</a>
+                                <a href="#service" data-goto="#service" class="menu__link">Service</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#prices" class="menu__link">Price</a>
+                                <a href="#prices" data-goto="#prices" class="menu__link">Price</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#contacts" class="menu__link">Contacts</a>
+                                <a href="#contacts" data-goto="#contacts" class="menu__link">Contacts</a>
                             </li>
                         </ul>
                     </nav>
@@ -81,42 +89,54 @@
                     </div>
                     <div class="service__list">
                         <div class="service__item">
-                            <img src="image/service-1.jpg" alt="Garden care" class="service__image">
+                            <div class="service__image">
+                                <img src="image/service-1.jpg" alt="Garden care">
+                            </div>
                             <div class="service__content">
                                 <h3 class="service__sub-title">Garden care</h3>
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
                         <div class="service__item">
-                            <img src="image/service-2.jpg" alt="Planting" class="service__image">
+                            <div class="service__image">
+                                <img src="image/service-2.jpg" alt="Planting">
+                            </div>
                             <div class="service__content">
                                 <h3 class="service__sub-title">Planting</h3>
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
                         <div class="service__item">
-                            <img src="image/service-3.jpg" alt="Lawn care" class="service__image">
+                            <div class="service__image">
+                                <img src="image/service-3.jpg" alt="Lawn care">
+                            </div>
                             <div class="service__content">
                                 <h3 class="service__sub-title">Lawn care</h3>
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
                         <div class="service__item">
-                            <img src="image/service-4.jpg" alt="Planting" class="service__image">
+                            <div class="service__image">
+                                <img src="image/service-4.jpg" alt="Planting">
+                            </div>
                             <div class="service__content">
                                 <h3 class="service__sub-title">Planting</h3>
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
                         <div class="service__item">
-                            <img src="image/service-5.jpg" alt="Garden care" class="service__image">
+                            <div class="service__image">
+                                <img src="image/service-5.jpg" alt="Garden care">
+                            </div>
                             <div class="service__content">
                                 <h3 class="service__sub-title">Garden care</h3>
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
                         <div class="service__item">
-                            <img src="image/service-6.jpg" alt="Planting" class="service__image">
+                            <div class="service__image">
+                                <img src="image/service-6.jpg" alt="Planting">
+                            </div>
                             <div class="service__content">
                                 <h3 class="service__sub-title">Planting</h3>
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
@@ -156,7 +176,9 @@
 
             <section class="main__contacts contacts" id="contacts">
                 <div class="contacts__container _container">
-                    <img src="image/contact_woman.png" alt="woman" class="contacts__image">
+                    <div class="contacts__image">
+                        <img src="image/contact_woman.png" alt="woman">
+                    </div>
                     <h2 class="contacts__title">Contact us</h2>
                     <div class="contacts__city">
                         <p class="contacts__name-city">City</p>
@@ -177,17 +199,20 @@
                 <div class="footer__rs-school"><a href="https://rs.school/js-stage0/ ">Rolling Scopes School</a></div>
                 <ul class="footer__links">
                     <li>
-                        <a class="footer__link" href="https://www.instagram.com/" target="_blank"><img src="image/inst.svg" alt="Instagram"></a>
+                        <a class="footer__link" href="https://www.instagram.com/" target="_blank"><img
+                                src="image/inst.svg" alt="Instagram"></a>
                     </li>
                     <li>
-                        <a class="footer__link" href="https://www.facebook.com/" target="_blank"><img src="image/fb.svg" alt="Facebook"></a>
+                        <a class="footer__link" href="https://www.facebook.com/" target="_blank"><img src="image/fb.svg"
+                                alt="Facebook"></a>
                     </li>
                     <li>
-                        <a class="footer__link" href="https://twitter.com/" target="_blank"><img src="image/tw.svg" alt="Twitter"></a>
+                        <a class="footer__link" href="https://twitter.com/" target="_blank"><img src="image/tw.svg"
+                                alt="Twitter"></a>
                     </li>
                     <li>
-                        <a class="footer__link" href="https://www.pinterest.com/" target="_blank"><img src="image/pinterest.svg"
-                                alt="Pinterest"></a>
+                        <a class="footer__link" href="https://www.pinterest.com/" target="_blank"><img
+                                src="image/pinterest.svg" alt="Pinterest"></a>
                     </li>
                 </ul>
             </div>

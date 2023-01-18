@@ -1,0 +1,294 @@
+@media (max-width: 768px) {
+    .header__container {
+        padding: 35px 50px;
+    }
+
+    /* ------------------------------- */
+
+    .welcome {
+        padding: 40px 0 70px 0;
+    }
+
+    .welcome__container {
+        flex-direction: row-reverse;
+    }
+
+    .welcome__image {
+        width: 280px;
+        height: 254.15px;
+    }
+
+    .welcome__content {
+        width: auto;
+        padding: 0;
+    }
+
+    .welcome__title {
+        width: 341px;
+        font-size: 35px;
+        line-height: 143%;
+    }
+
+    .welcome__text {
+        line-height: 156%;
+        font-size: 16px;
+        width: 341px;
+        padding: 28px 0px 35px 4px;
+    }
+
+    /* ------------------------------- */
+
+    .about {
+        padding: 40px 0 95px 0;
+    }
+
+    .about__container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__title {
+        font-size: 35px;
+        line-height: 46px;
+        width: 423px;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+
+    .about__text {
+        margin: 9px 0 0 0;
+    }
+
+    .about__image {
+        margin-top: 68px;
+        width: 250px;
+    }
+
+    /* ------------------------------- */
+
+    .service {
+        padding: 60px 0 32px 0;
+    }
+
+    .service__header {
+        width: auto;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .service__title {
+        font-size: 35px;
+        line-height: 46px;
+        margin: 0;
+    }
+
+    .service__button {
+        margin: 43px 32px 0 0;
+        width: 161px;
+    }
+
+    .service__item {
+        margin-bottom: 39px;
+    }
+
+    .service__image {
+        width: 280px;
+        height: 350px;
+    }
+
+    .service__content {
+        width: 280px;
+    }
+
+    .service__text {
+        margin: 0 39px 36px 39px;
+        text-align: center;
+    }
+
+    /* ------------------------------- */
+    .prices {
+        padding: 40px 0 81px 0;
+    }
+
+    .prices__title {
+        font-size: 35px;
+        line-height: 42px;
+        padding-left: 14px;
+    }
+
+    .prices__list {
+        margin: 57px 0 14px 0;
+    }
+
+    .prices__item {
+        margin-bottom: 32px;
+        padding: 0 40px;
+    }
+
+    .prices__contact {
+        padding-top: 100px;
+    }
+
+    .title-rigth {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .prices__button {
+        margin: 28px 0;
+    }
+
+    .prices__image {
+        height: 188px;
+    }
+
+    /* ------------------------------- */
+
+    .contacts {
+        padding-top: 40px;
+    }
+
+    .contacts__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts__title {
+        padding: 0;
+    }
+
+    .contacts__city {
+        margin-top: 99px;
+        margin-bottom: 250px;
+    }
+
+    .contacts__image {
+        order: 3;
+        width: 200px;
+        height: 248.49px;
+    }
+
+    .contacts__image img {
+        height: 248.49px;
+        padding: 0 10px;
+    }
+
+    /* ------------------------------- */
+    .footer {
+        padding: 33px 0 0 0;
+    }
+
+    .footer__container {
+        flex-direction: column;
+    }
+
+    .footer__data {
+        line-height: 24px;
+        margin-right: 8px;
+    }
+
+    .footer__data span {
+        padding-right: 16px;
+    }
+
+    .footer__rs-school {
+        margin-top: 15px;
+    }
+
+    .footer__rs-school a {
+        line-height: 24px;
+        padding: 0 6px 0 0;
+    }
+
+    .footer__links {
+        margin-top: 29px;
+        padding: 0;
+    }
+
+    .footer__links li {
+        padding: 0 9px;
+    }
+
+    /* ------------------------------- */
+
+    ._container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .menu__list {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .menu__item {
+        padding-left: 20px;
+        padding-right: 0;
+    }
+
+    .menu__link {
+        line-height: 200%;
+    }
+
+    .welcome__image {
+        display: none;
+    }
+
+    .welcome__title {
+        width: auto;
+    }
+
+    .welcome__text {
+        width: auto;
+    }
+
+    .service__button {
+        margin-top: 20px;
+        margin-right: 10px;
+        width: 110px;
+        height: 35px;
+    }
+
+    .service__list {
+        justify-content: center;
+    }
+
+    .service__item {
+        margin-bottom: 35px;
+    }
+
+    .service__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .prices__container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .prices__contact {
+        width: auto;
+        padding-top: 0;
+        align-items: center;
+    }
+
+    .title-rigth {
+        text-align: center;
+    }
+
+    .contacts__city {
+        width: 350px;
+    }
+}
