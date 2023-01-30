@@ -82,13 +82,13 @@
                     <div class="service__header">
                         <h2 class="service__title">Service and our projects</h2>
                         <div class="service__buttons">
-                            <button class="service__button button">Gardens</button>
-                            <button class="service__button button">Lawn</button>
-                            <button class="service__button button">Planting</button>
+                            <button class="button service__button" data-service="gardens">Gardens</button>
+                            <button class="button service__button" data-service="lawn">Lawn</button>
+                            <button class="button service__button" data-service="planting">Planting</button>
                         </div>
                     </div>
                     <div class="service__list">
-                        <div class="service__item">
+                        <div class="service__item" data-service="gardens">
                             <div class="service__image">
                                 <img src="image/service-1.jpg" alt="Garden care">
                             </div>
@@ -97,7 +97,7 @@
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
-                        <div class="service__item">
+                        <div class="service__item" data-service="planting">
                             <div class="service__image">
                                 <img src="image/service-2.jpg" alt="Planting">
                             </div>
@@ -106,7 +106,7 @@
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
-                        <div class="service__item">
+                        <div class="service__item" data-service="lawn">
                             <div class="service__image">
                                 <img src="image/service-3.jpg" alt="Lawn care">
                             </div>
@@ -115,7 +115,7 @@
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
-                        <div class="service__item">
+                        <div class="service__item" data-service="planting">
                             <div class="service__image">
                                 <img src="image/service-4.jpg" alt="Planting">
                             </div>
@@ -124,7 +124,7 @@
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
-                        <div class="service__item">
+                        <div class="service__item" data-service="gardens">
                             <div class="service__image">
                                 <img src="image/service-5.jpg" alt="Garden care">
                             </div>
@@ -133,7 +133,7 @@
                                 <p class="service__text">Lorem Ipsum has been the industry</p>
                             </div>
                         </div>
-                        <div class="service__item">
+                        <div class="service__item" data-service="planting">
                             <div class="service__image">
                                 <img src="image/service-6.jpg" alt="Planting">
                             </div>
@@ -152,16 +152,43 @@
                         <h2 class="prices__title">Prices</h2>
                         <div class="prices__list">
                             <div class="prices__item">
-                                <h3 class="prices__sub-title">Basics</h3>
-                                <span class="prices__arrow arrow"></span>
+                                <div class="prices__item-title">
+                                    <h3 class="prices__sub-title">Basics</h3>
+                                    <span class="prices__arrow arrow"></span>
+                                </div>
+                                <div class="prices__content">
+                                    <p class="prices__text">
+                                        Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    </p>
+                                    <p class="prices__price"><span class="prices__price-colored">$15</span> / per hour</p>
+                                    <a href="#contacts" class="prices__item-button button">Order</a>
+                                </div>
                             </div>
                             <div class="prices__item">
-                                <h3 class="prices__sub-title">Standard</h3>
-                                <span class="prices__arrow arrow"></span>
+                                <div class="prices__item-title">
+                                    <h3 class="prices__sub-title">Standard</h3>
+                                    <span class="prices__arrow arrow"></span>
+                                </div>
+                                <div class="prices__content">
+                                    <p class="prices__text">
+                                        Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    </p>
+                                    <p class="prices__price"><span class="prices__price-colored">$25</span> / per hour</p>
+                                    <a href="#contacts" class="prices__item-button button">Order</a>
+                                </div>
                             </div>
                             <div class="prices__item">
-                                <h3 class="prices__sub-title">Pro care</h3>
-                                <span class="prices__arrow arrow"></span>
+                                <div class="prices__item-title">
+                                    <h3 class="prices__sub-title">Pro care</h3>
+                                    <span class="prices__arrow arrow"></span>
+                                </div>
+                                <div class="prices__content">
+                                    <p class="prices__text">
+                                        Release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    </p>
+                                    <p class="prices__price"><span class="prices__price-colored">$35</span> / per hour</p>
+                                    <a href="#contacts" class="prices__item-button button">Order</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -180,9 +207,31 @@
                         <img src="image/contact_woman.png" alt="woman">
                     </div>
                     <h2 class="contacts__title">Contact us</h2>
-                    <div class="contacts__city">
-                        <p class="contacts__name-city">City</p>
-                        <span class="contacts__arrow arrow"></span>
+                    <div class="contacts__form form">
+                        <div class="form__select-city">
+                            <div class="form__select-title">
+                                <p class="form__name-city">City</p>
+                                <span class="form__arrow arrow"></span>
+                            </div>
+                            <div class="form__select-list">
+                                <div class="form__select-item">
+                                    Canandaigua, NY
+                                </div>
+                                <div class="form__select-item">
+                                    New York City
+                                </div>
+                                <div class="form__select-item">
+                                    Yonkers, NY
+                                </div>
+                                <div class="form__select-item">
+                                    Sherrill, NY
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="form__info">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -220,6 +269,10 @@
     </div>
 
     <script src="index.js"></script>
+    <script src="./scripts/service.js"></script>
+    <script src="./scripts/prices.js"></script>
+    <script src="./scripts/contacts.js"></script>
+
 </body>
 
 </html>
