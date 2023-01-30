@@ -207,18 +207,22 @@
         margin: 36px 0 19px 0;
         padding: 28px 21px;
 
-        width: calc(224px - 44px);
-        height: calc(235px - 58px);
+        width: 224px;
+        height: 235px;
     }
 
     .prices__item {
         width: 180px;
         margin-bottom: 13.92px;
-        padding: 0 40px 0 30px;
+        padding: 16px 25px 0 25px;
     }
 
     .prices__item:last-child {
         margin-bottom: 0;
+    }
+
+    .prices__item-title {
+        padding-bottom: 2px;
     }
 
     .prices__sub-title {
@@ -250,21 +254,36 @@
         padding-top: 25px;
     }
 
-    /* .contacts__container {
-        flex-direction: column;
-        align-items: center;
-    } */
-
     .contacts__title {
         font-size: 25px;
         line-height: 33px;
     }
 
-    .contacts__city {
+    .form__select-city {
         margin-top: 80px;
-        margin-bottom: 132px;
+        margin-bottom: 45px;
         width: 300px;
         padding: 5px 22px 5px 18px;
+    }
+
+    .form__info {
+        padding: 23px 36px;
+    }
+
+    .form__rows {
+        margin: 0;
+    }
+
+    .form__row {
+        line-height: 30px;
+    }
+
+    .form__row-name {
+        width: 65px;
+    }
+
+    .form__row-value {
+        width: auto;
     }
 
     .contacts__image {

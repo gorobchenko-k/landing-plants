@@ -130,7 +130,6 @@
 
     .prices__item {
         margin-bottom: 32px;
-        padding: 0 40px;
     }
 
     .prices__contact {
@@ -165,13 +164,18 @@
         padding: 0;
     }
 
-    .contacts__city {
+    .form__select-city {
         margin-top: 99px;
-        margin-bottom: 250px;
+        margin-bottom: 61px;
+    }
+
+    .form__info {
+        margin-bottom: 15px;
     }
 
     .contacts__image {
         order: 3;
+        align-self: auto;
         width: 200px;
         height: 248.49px;
     }
@@ -288,7 +292,17 @@
         text-align: center;
     }
 
-    .contacts__city {
+    .contacts__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__select-city {
         width: 350px;
+    }
+
+    .form__rows {
+        margin: 0 10px 0 20px;
     }
 }
